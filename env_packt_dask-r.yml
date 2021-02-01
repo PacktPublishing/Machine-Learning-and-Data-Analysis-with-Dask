@@ -1,0 +1,30 @@
+name: packt_dask
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8.6
+  - dask=2.30.0
+  - numpy=1.18.1
+  - pandas=1.0.1
+  # ML and Numba
+  - dask-ml=1.7.0
+  - dask-xgboost=0.1.11
+  - numba=0.51.2
+  - scikit-learn=0.23.2
+  - scipy=1.5.2
+  # Parquet
+  - pyarrow=1.0.1
+  - lz4-c=1.9.2
+  # Cloud storage
+  - boto3=1.14.44
+  - adlfs=0.5.5
+  - fsspec=0.8.3
+  - gcsfs=0.7.1=py_0
+  - s3fs=0.5.1
+  # R
+  - r-base=4.0.2
+  - r-forecast=8.13
+  - rpy2=3.4.2
+  
+  

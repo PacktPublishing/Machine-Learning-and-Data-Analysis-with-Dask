@@ -1,0 +1,7 @@
+**/.ipynb_checkpoints/*
+**/dask-worker-space/*
+**.csv
+**.csv.gz
+**.parq
+**.parquet
+**.pkl
