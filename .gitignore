@@ -5,3 +5,6 @@
 **.parq
 **.parquet
 **.pkl
+**.json
+**_metadata
+Data/*
